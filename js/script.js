@@ -71,6 +71,7 @@ $(document).ready(function () {
 
             checkoutTotal = checkoutTotal + total;
             console.log(checkoutTotal);
+            
             // constractor function
             var newOrder = new Getpizza(pname, psize, pcrust, ptopping, total);
 
@@ -97,9 +98,9 @@ $(document).ready(function () {
             $("#addedprice").hide();
             $("button.deliver").hide();
             $("#pizzatotal").hide();
-            let deliceryamount = checkoutTotal + 200;
-            console.log("You will pay sh. " + deliceryamount + " on delivery");
-            $("#totalbill").append("Your bill plus delivery fee is: " + deliceryamount);
+            let deliveryamount = checkoutTotal + 200;
+            console.log("You will pay ksh. " + deliveryamount + " on delivery");
+            $("#totalbill").append("Your bill plus delivery fee is: " + deliveryamount);
         });
 
 
