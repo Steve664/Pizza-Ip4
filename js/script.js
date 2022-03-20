@@ -18,6 +18,7 @@ $(document).ready(function () {
         let pname = $(".name option:selected").val();
         let psize = parseInt($("#size option:selected").val());
         let pcrust = parseInt($("#crust option:selected").val());
+        $("button.deliver").hide();
         let ptopping = [];
 
         $.each($("input[name='toppings']:checked"), function () {

@@ -4,6 +4,7 @@ body{
 .order{
     background-color: aliceblue;
 }
+
 .choice{
     display: none;
     padding-left: 2%;
@@ -26,8 +27,9 @@ body{
   }
   #your-orders{
 
-    font-size: 30px;
+    font-size: 26px;
   }
-  button {
-      background-color: orange;
-  }
+
+button{
+    padding-bottom: 20px;
+}
