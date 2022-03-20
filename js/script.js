@@ -25,11 +25,23 @@ $(document).ready(function () {
         $.each($("input[name='toppings']:checked"), function () {
             ptopping.push($(this).val());
         });
-       
+      
+        let topping_value = 0;
 
+        if ($('#cheese').prop('checked')){
 
-        let topping_value = ptopping.length * 50;
-        console.log("toppins value" + topping_value);
+        topping_value += 60 
+        console.log("toppins value" + topping_value);} 
+        
+        if ($('#Mushrooms').prop('checked')){
+
+            topping_value += 70 
+            console.log("toppins value" + topping_value);}
+        
+     if ($('#Olives').prop('checked')){
+
+        topping_value += 100 
+        console.log("toppins value" + topping_value);}
 
         if ((psize == "0") && (pcrust == "0")) {
             console.log("nothing selected");
@@ -64,8 +76,23 @@ $(document).ready(function () {
             });
             console.log(ptopping.join(", "));
 
-            let topping_value = ptopping.length * 50;
-            console.log("toppins value" + topping_value);
+            let topping_value = 0;
+
+            if ($('#cheese').prop('checked')){
+
+                topping_value += 60 
+                console.log("toppins value" + topping_value);} 
+                
+                if ($('#Mushrooms').prop('checked')){
+        
+                    topping_value += 70 
+                    console.log("toppins value" + topping_value);}
+                
+             if ($('#Olives').prop('checked')){
+        
+                topping_value += 100 
+                console.log("toppins value" + topping_value);}
+        
             total = psize + pcrust + topping_value;
             console.log(total);
 
@@ -86,11 +113,10 @@ $(document).ready(function () {
             $("button.addPizza").hide();
             $("button.deliver").slideDown(1000);
             $("#addedprice").slideDown(1000);
-            console.log("Your total bills is sh. " + checkoutTotal);
-            $("#pizzatotal").append("Your bill is sh. " + checkoutTotal);
+            $("#pizzatotal").append("Your bill total bill is ksh. " + checkoutTotal);
         });
 
-        // home delivery button
+        //  delivery button
         $("button.deliver").click(function () {
             $(".pizzatable").hide();
             $(".choice h2").hide();
