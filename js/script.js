@@ -3,6 +3,7 @@ var price,
     topping_price;
 let total = 0;
 let checkoutTotal = 0;
+
 function Getpizza(name, size, crust, topping, total) {
     this.name = name;
     this.size = size;
@@ -24,9 +25,7 @@ $(document).ready(function () {
         $.each($("input[name='toppings']:checked"), function () {
             ptopping.push($(this).val());
         });
-        console.log(ptopping.join(", "));
-        console.log("sddsd" + psize);
-        console.log(psize + pcrust);
+       
 
 
         let topping_value = ptopping.length * 50;
