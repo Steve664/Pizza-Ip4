@@ -4,3 +4,30 @@ body{
 .order{
     background-color: aliceblue;
 }
+.choice{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .deliver{
+    display: none;
+  }
+  .delivery{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  td,th{
+    font-size: 20px;
+}
+  .choice h2{
+    color:orange;
+    text-align: left;
+  }
+  #your-orders{
+
+    font-size: 30px;
+  }
+  button {
+      background-color: orange;
+  }
