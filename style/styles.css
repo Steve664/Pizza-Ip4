@@ -1,45 +1,45 @@
-body{
-    background-image: url("back.jpg");
+body {
+  background-image: url("back.jpg");
 }
-.order{
+.order {
   margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 10px;
-    margin-bottom: auto;
-    padding: 20px;
-    border: 5px;
-    border-color:#fff;
-    border-radius: 1%;
-    background-color: aliceblue;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: auto;
+  padding: 20px;
+  border: 5px;
+  border-color: #fff;
+  border-radius: 1%;
+  background-color: aliceblue;
 }
 
-.choice{
-    width: 80%;
-    margin: auto;
-    display: none;
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-  .deliver{
-    display: none;
-  }
-  .delivery{
-    display: none;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  td,th{
-    font-size: 20px;
+.choice {
+  width: 80%;
+  margin: auto;
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
 }
-  .choice h2{
-    color:orange;
-    text-align: left;
-  }
-  #your-orders{
-
-    font-size: 20px;
-  }
+.deliver {
+  display: none;
+}
+.delivery {
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td,
+th {
+  font-size: 20px;
+}
+.choice h2 {
+  color: orange;
+  text-align: left;
+}
+#your-orders {
+  font-size: 20px;
+}
 
 form {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
