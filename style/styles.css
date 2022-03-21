@@ -2,10 +2,20 @@ body{
     background-image: url("back.jpg");
 }
 .order{
+  margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: auto;
+    padding: 20px;
+    border: 5px;
+    border-color:#fff;
+    border-radius: 1%;
     background-color: aliceblue;
 }
 
 .choice{
+    width: 80%;
+    margin: auto;
     display: none;
     padding-left: 2%;
     padding-right: 2%;
