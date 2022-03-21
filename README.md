@@ -12,7 +12,7 @@ by Steve Kariuki
 -   Open your terminal (ctrl+alt+T).
 -   Initialize git on your terminal.
 -   git clone <https://github.com/Steve664/Pizza-Ip4.git>.
--   open the 'oregano' folder.
+-   open the 'Pizza-Ip4' folder.
 -   Open the file named index.html on your preferred browser.
 -   Enter your pizza of choice into the input boxes.
 -   Click Submit.
