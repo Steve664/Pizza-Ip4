@@ -1,22 +1,22 @@
 # Pizza-Ip4
-by Steve Kariuki
+By Steve Kariuki
+
 ## Prerequisites
 - Have Git installed.
 - Have a text editor installed e.g VS Code, Atom
 
 ### Technologies Used
-- HTML, CSS, Bootstrap and JavaScript
+- HTML, CSS, Bootstrap, JavaScript and jQuery
 - Any text editor of your choise.
 
-### Setup/Installation Requirements
--   Open your terminal (ctrl+alt+T).
--   Initialize git on your terminal.
--   git clone <https://github.com/Steve664/Pizza-Ip4.git>.
--   open the 'Pizza-Ip4' folder.
--   Open the file named index.html on your preferred browser.
--   Enter your pizza of choice into the input boxes.
--   Click Submit.
--   Wait for the response from the web application to let you the pizza is coming.
+]
+ ## Installation
+ 
+To use the app, open the Github Pages link provided below on the README.
+Follow the below steps to set up this application
+* Step 1 : Clone this repository using **`https://github.com/Steve664/Pizza-Ip4.git`**, or download a ZIP file of the code.
+* Step 2 : The repository, if downloaded as a .zip file will need to be extracted and opened
+* Step 3 : Open the index.html file to view the application on a web browser.
 
 ## Behavior Driven Development
 BDD(Behavior Driven Development) focuses on users being able to identify the kind of triangle they have.
@@ -49,6 +49,13 @@ To fix a bug or enhance an existing module, follow these steps:
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://google.com) by including your search query and the expected result.
 
 If you'd like to request a new function, feel free to do so by opening an issue [here](https://google.com). Please include sample queries and their corresponding results.
+
+## Author Info
+<ul>
+ <li><a href="https://github.com/Steve664?tab=repositories">Github</a></li>
+</ul>
+ <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ### License
 
