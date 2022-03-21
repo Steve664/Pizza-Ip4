@@ -1,6 +1,7 @@
 # Pizza-Ip4
 By Steve Kariuki
-<steve664.github.io/pizza-ip4/>
+<p align="left"><a href="steve664.github.io/pizza-ip4/">Live Link</a></p>
+
 ## Prerequisites
 - Have Git installed.
 - Have a text editor installed e.g VS Code, Atom
