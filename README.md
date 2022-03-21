@@ -1,6 +1,6 @@
 # Pizza-Ip4
 By Steve Kariuki
-<p align="left"><a href="steve664.github.io/pizza-ip4/">Live Link</a></p>
+<p align="left"><a href="https://steve664.github.io/Pizza-Ip4/">Live Link</a></p>
 
 ## Prerequisites
 - Have Git installed.
